@@ -15,8 +15,6 @@ The system applies machine learning techniques to improve the accuracy, efficien
 * Provide a decision support tool for forensic and clinical use cases
 * Conduct a research-based evaluation of ML effectiveness in forensic genetics
 
----
-
 ## Data Sources
 
 DNA STR profile datasets can be obtained or generated from:
@@ -26,8 +24,6 @@ DNA STR profile datasets can be obtained or generated from:
 * **1000 Genomes Project** — [https://www.internationalgenomes.org](https://www.internationalgenomes.org)
 * **NCBI GenBank** — [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank)
 * Synthetic DNA STR inheritance datasets generated programmatically
-
----
 
 ## Data Engineering Pipeline
 
@@ -40,7 +36,6 @@ The project includes a full data processing workflow:
 * Normalization of STR values
 * Encoding DNA profiles into machine-readable formats
 
----
 
 ##  System Features
 
@@ -53,9 +48,7 @@ The platform allows users (e.g., forensic analysts or lab technicians) to:
 * Generate confidence scores for predictions
 * Visualize DNA inheritance and similarity patterns
 
----
-
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 The system evaluates and compares multiple supervised learning algorithms:
 
@@ -66,8 +59,6 @@ The system evaluates and compares multiple supervised learning algorithms:
 * XGBoost
 * Neural Networks
 
----
-
 ## Feature Engineering
 
 Key features derived from genetic data include:
@@ -77,8 +68,6 @@ Key features derived from genetic data include:
 * Number of matching loci
 * Genetic distance metrics
 * Mutation probability adjustments
-
----
 
 ## Evaluation Metrics
 
@@ -104,8 +93,6 @@ The study focuses on:
 * Ethical and privacy considerations in forensic genetics
 * Feasibility of integrating ML into clinical and forensic workflows
 
----
-
 ## Expected Findings
 
 * Best-performing ML model for paternity prediction
@@ -130,7 +117,6 @@ The study focuses on:
 * Ethical and privacy considerations section
 * Final presentation and demonstration
 
----
 
 ## Project Impact
 

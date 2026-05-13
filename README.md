@@ -1,27 +1,63 @@
-### **Project: Development of a Machine Learning-Assisted Decision Support System for DNA-Based Paternity Analysis**
+# 🧬 Machine Learning-Assisted Decision Support System for DNA-Based Paternity Analysis
 
-Build a data engineering, machine learning, and research-driven platform that supports forensic and clinical laboratories in analyzing DNA STR (Short Tandem Repeat) profiles to predict biological parenthood and assist in paternity determination.
+## Project Overview
 
-Extract or generate DNA STR profile datasets from open genomic and bioinformatics sources such as:
+This project is a data engineering, machine learning, and research-driven platform designed to support forensic and clinical laboratories in analyzing DNA **Short Tandem Repeat (STR)** profiles to predict biological parenthood and assist in paternity determination.
 
-* **Kaggle** — `www.kaggle.com`
-* **UCI Machine Learning Repository** — `archive.ics.uci.edu/ml`
-* **1000 Genomes Project** — `www.internationalgenome.org`
-* **NCBI GenBank** — `www.ncbi.nlm.nih.gov/genbank`
+The system applies machine learning techniques to improve the accuracy, efficiency, and interpretability of DNA-based relationship analysis.
+
+
+##  Project Objectives
+
+* Build a machine learning system for DNA-based paternity prediction
+* Compare multiple ML algorithms for biological relationship classification
+* Develop a data pipeline for DNA STR data processing and feature engineering
+* Provide a decision support tool for forensic and clinical use cases
+* Conduct a research-based evaluation of ML effectiveness in forensic genetics
+
+---
+
+## Data Sources
+
+DNA STR profile datasets can be obtained or generated from:
+
+* **Kaggle** — [https://www.kaggle.com](https://www.kaggle.com)
+* **UCI Machine Learning Repository** — [https://archive.ics.uci.edu/ml](https://archive.ics.uci.edu/ml)
+* **1000 Genomes Project** — [https://www.internationalgenomes.org](https://www.internationalgenomes.org)
+* **NCBI GenBank** — [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank)
 * Synthetic DNA STR inheritance datasets generated programmatically
 
-Store the extracted or generated genetic data in a structured database of your choice, clean it, and preprocess it for machine learning analysis. This should include handling missing values, normalizing genetic markers, and encoding STR profiles into machine-readable formats.
+---
 
-Using the cleaned dataset, build a system that allows users (e.g., forensic analysts or laboratory technicians) to:
+## Data Engineering Pipeline
+
+The project includes a full data processing workflow:
+
+* Data extraction or simulation of DNA STR profiles
+* Storage in a structured database (PostgreSQL / MySQL / SQLite)
+* Data cleaning and preprocessing
+* Handling missing genetic markers
+* Normalization of STR values
+* Encoding DNA profiles into machine-readable formats
+
+---
+
+##  System Features
+
+The platform allows users (e.g., forensic analysts or lab technicians) to:
 
 * Upload or input DNA STR profiles
 * Compare child and alleged parent genetic markers
-* Predict the probability of biological parenthood
-* Identify matching and non-matching genetic loci
-* Generate confidence scores for relationship predictions
-* Visualize DNA inheritance patterns and similarity scores
+* Predict probability of biological parenthood
+* Identify matching and non-matching loci
+* Generate confidence scores for predictions
+* Visualize DNA inheritance and similarity patterns
 
-The system should also evaluate and compare multiple machine learning algorithms for paternity prediction, including:
+---
+
+## 🤖 Machine Learning Models
+
+The system evaluates and compares multiple supervised learning algorithms:
 
 * Logistic Regression
 * Decision Trees
@@ -30,7 +66,11 @@ The system should also evaluate and compare multiple machine learning algorithms
 * XGBoost
 * Neural Networks
 
-A key component of the project will be feature engineering based on genetic data, including:
+---
+
+## Feature Engineering
+
+Key features derived from genetic data include:
 
 * STR marker similarity scores
 * Allele frequency comparisons
@@ -40,48 +80,72 @@ A key component of the project will be feature engineering based on genetic data
 
 ---
 
-### **Research and Experimental Evaluation Component**
+## Evaluation Metrics
 
-The project must include a research-based analysis section that evaluates the effectiveness of machine learning techniques in DNA-based paternity testing.
+Model performance is evaluated using:
 
-The study should:
-
-* Compare model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC
-* Identify the most effective algorithm for paternity prediction
-* Analyze limitations in DNA data quality and preprocessing challenges
-* Discuss ethical, legal, and privacy considerations in forensic genetics
-* Evaluate the feasibility of integrating machine learning into clinical and forensic workflows
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* ROC-AUC
 
 ---
 
-### **Expected Findings**
+## Research & Experimental Analysis
 
-The project should present structured findings such as:
+This project includes a formal research component that investigates the effectiveness of machine learning in DNA-based paternity testing.
 
-* Best-performing machine learning model for paternity prediction
-* Impact of feature selection on prediction accuracy
+The study focuses on:
+
+* Comparison of ML model performance
+* Identification of the best-performing algorithm
+* Challenges in DNA preprocessing and data quality
+* Ethical and privacy considerations in forensic genetics
+* Feasibility of integrating ML into clinical and forensic workflows
+
+---
+
+## Expected Findings
+
+* Best-performing ML model for paternity prediction
+* Effect of feature selection on model accuracy
 * Strengths and limitations of ML-based forensic DNA analysis
-* Comparison between traditional statistical methods and machine learning approaches
-* Practical implications for clinical and forensic applications
+* Comparison between traditional statistical and ML approaches
+* Real-world applications in clinical and forensic settings
 
 ---
 
-### **Final Deliverables**
+## Final Deliverables
 
-The final solution should include:
-
-* A structured database for DNA STR profiles
+* Structured DNA STR database
 * Cleaned and processed dataset
-* Data generation or extraction scripts
+* Data generation / extraction scripts
 * Data preprocessing and feature engineering pipeline
 * Machine learning training and evaluation pipeline
 * Paternity prediction engine
 * Visualization dashboard or web application
-* Model comparison and evaluation report
+* Model evaluation and comparison report
 * Full research paper / technical report
 * Ethical and privacy considerations section
 * Final presentation and demonstration
 
 ---
 
-This project demonstrates how machine learning can be applied to improve the accuracy, efficiency, and interpretability of DNA-based paternity analysis systems in both clinical and forensic contexts.
+## Project Impact
+
+This project demonstrates how machine learning can enhance the **accuracy, efficiency, and interpretability** of DNA-based paternity analysis systems, bridging the gap between **clinical medicine, forensic science, and artificial intelligence**.
+
+---
+
+## Contact
+
+For inquiries, collaboration, or questions about this project:
+
+**Email:** [mwaivictorbrian68@gmail.com](mailto:mwaivictorbrian68@gmail.com)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended for **educational and research purposes only** and is not designed for certified forensic or legal use.

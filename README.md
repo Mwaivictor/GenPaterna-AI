@@ -17,8 +17,6 @@ It is designed as an experimental and educational platform exploring how AI can 
 * Build a decision support system for forensic and clinical use cases
 * Conduct a research-driven evaluation of ML effectiveness in forensic genetics
 
----
-
 ## Data Sources
 
 DNA STR profile datasets can be obtained or generated from:

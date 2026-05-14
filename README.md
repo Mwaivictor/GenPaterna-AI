@@ -8,7 +8,6 @@ The system applies modern **machine learning and statistical learning techniques
 
 It is designed as an experimental and educational platform exploring how AI can augment traditional forensic genetics workflows.
 
----
 
 ## Project Objectives
 
@@ -30,8 +29,6 @@ DNA STR profile datasets can be obtained or generated from:
 * NCBI GenBank — [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank)
 * Programmatically generated synthetic STR inheritance datasets
 
----
-
 ## Data Engineering Pipeline
 
 The system implements an end-to-end forensic data processing workflow:
@@ -42,8 +39,6 @@ The system implements an end-to-end forensic data processing workflow:
 * Handling missing or incomplete genetic markers
 * Normalization of STR allele values
 * Encoding DNA profiles into ML-ready numerical representations
-
----
 
 ## System Features
 
@@ -56,8 +51,6 @@ The platform provides tools for forensic and clinical decision support:
 * Generate confidence scores for predictions
 * Visualize inheritance patterns and genetic similarity distributions
 * Support interpretability of predictions for forensic review
-
----
 
 ## Machine Learning Models
 
@@ -72,8 +65,6 @@ The system evaluates multiple supervised learning models:
 
 Each model is benchmarked to determine suitability for structured genetic relationship inference.
 
----
-
 ## Feature Engineering
 
 Genetic features extracted from STR profiles include:
@@ -85,7 +76,6 @@ Genetic features extracted from STR profiles include:
 * Mutation probability adjustments
 * Weighted inheritance consistency scores
 
----
 
 ## Evaluation Metrics
 
@@ -102,7 +92,6 @@ Additional forensic-focused evaluation may include:
 * False match rate (FMR)
 * False exclusion rate (FER)
 
----
 
 ## Research & Experimental Analysis
 
@@ -123,8 +112,6 @@ The study also examines:
 * Ethical, legal, and privacy considerations in genetic data systems
 * Practical integration of AI tools into laboratory workflows
 
----
-
 ## Expected Findings
 
 * Identification of the most effective ML model for paternity prediction
@@ -134,7 +121,6 @@ The study also examines:
 * Practical use cases in clinical and forensic environments
 * Recommendations for hybrid (statistical + ML) decision systems
 
----
 
 ## Final Deliverables
 
@@ -150,7 +136,6 @@ The study also examines:
 * Ethical, legal, and privacy impact assessment
 * Final presentation and demonstration
 
----
 
 ## Project Impact
 
@@ -167,7 +152,6 @@ This system demonstrates how machine learning can augment traditional DNA analys
 
 It contributes to the evolving field of **computational forensic genetics**.
 
----
 
 ### 2. Improved Efficiency in Laboratory Workflows
 
@@ -180,7 +164,6 @@ By automating key steps in DNA STR analysis, the system can:
 
 This makes forensic workflows more efficient and standardized.
 
----
 
 ### 3. Enhanced Interpretability and Decision Support
 
@@ -193,8 +176,6 @@ Unlike black-box predictions, the system is designed to provide:
 
 This supports **human-in-the-loop forensic decision-making** rather than replacing expert judgment.
 
----
-
 ### 4. Accessibility for Resource-Constrained Regions
 
 The platform can be particularly valuable in regions with limited forensic infrastructure by:
@@ -204,7 +185,6 @@ The platform can be particularly valuable in regions with limited forensic infra
 * Providing a low-cost decision support alternative for laboratories
 * Enabling training in computational biology and forensic AI
 
----
 
 ### 5. Research Contribution to Computational Biology
 
@@ -217,7 +197,6 @@ This project contributes to scientific understanding of:
 
 It can serve as a foundation for academic publication or advanced research.
 
----
 
 ### 6. Ethical and Responsible AI in Genetics
 
@@ -228,13 +207,10 @@ The system emphasizes:
 * Clear separation between research tools and certified forensic systems
 * Ethical awareness in AI-assisted biological decision-making
 
----
-
 ### Overall Impact Statement
 
 > This project demonstrates how machine learning can act as a **decision-support layer on top of classical forensic genetics**, improving efficiency, interpretability, and scalability while preserving scientific rigor and ethical responsibility.
 
----
 
 ## Contact
 
@@ -242,7 +218,6 @@ For inquiries, collaboration, or research discussions:
 
 📧 Email: [mwaivictorbrian68@gmail.com](mailto:mwaivictorbrian68@gmail.com)
 
----
 
 ## ⚠️ Disclaimer
 

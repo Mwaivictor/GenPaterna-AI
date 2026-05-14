@@ -214,7 +214,9 @@ The system emphasizes:
 
 For inquiries, collaboration, or research discussions:
 
-📧 Email: [mwaivictorbrian68@gmail.com](mailto:mwaivictorbrian68@gmail.com)
+Author: Mwai Victor
+Role: Independent ML + bioinformatics systems developer working on forensic decision support tools
+Email: [mwaivictorbrian68@gmail.com](mailto:mwaivictorbrian68@gmail.com)
 
 
 ## ⚠️ Disclaimer
